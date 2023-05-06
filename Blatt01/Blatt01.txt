@@ -1,0 +1,102 @@
+/**
+ * @author Samuel Gröner
+ * @Blatt 01
+ * @Tut 3
+ * if tasks are solved elsewhere then the location is referenced in this document
+ * */
+Aufgabe 2
+    2.1
+         AbstractAnimal
+                inTheAir => nicht sichtbar
+                wings => sichtbar
+                food => sichtbar
+                legs => sichtbar
+                name => sichtbar
+            AbstractBird
+                inTheAir => sichtbar
+                wings => sichtbar
+                food => nicht sichtbar
+                legs => sichtbar
+                name => sichtbar
+            Eagle
+                inTheAir => nicht sichtbar
+                wings => sichtbar
+                food => nicht sichtbar
+                legs => sichtbar
+                name => sichtbar
+            Main
+                inTheAir => nicht sichtbar
+                wings => nicht sichtbar
+                food => nicht sichtbar
+                legs => nicht sichtbar
+                name => nicht sichtbar
+    2.2
+        Nein, das sie final ist der wert sozusagen final wenn er einmal deklariert wurde
+    2.3
+        Abstract Animal
+                konstruktor => sichtbar
+                burnfood => sichtbar
+                hunt => sichtbar
+                isFlying => sichtbar
+                eat => sichtbar
+
+            Abstract Bird
+                konstruktor => sichtbar
+                burnfood => sichtbar
+                hunt => sichtbar
+                isFlying => sichtbar
+                eat => sichtbar
+            Eagel
+                konstruktor => sichtbar
+                burnfood => sichtbar
+                hunt => sichtbar
+                isFlying => sichtbar
+                eat => sichtbar
+            Main
+                konstruktor => nicht sichtbar
+                burnfood => nicht sichtbar
+                hunt => sichtbar
+                isFlying => sichtbar
+                eat => sichtbar
+    2.4
+        Overloading
+            api.AbstractAnimal.burnFood
+            api.AbstractAnimal.eat
+        Overriding
+            api.AbstractAnimal.eat,eat,isDead,isHungry
+            api.Eagle.hunt,move,takeOff,land
+            api.AbstractBird.isFlying,land,takeOff
+
+Aufgabe3
+    3.1
+        1: Nein, weil AbstractBird abstract ist(abstracts können nich inizaiert werden)
+        2: Ja
+        3: Ja, Adresse von eagle amos
+        4: Ja
+        5: Ja, false
+        6: Ja, false
+    3.2
+        Ausgabe: "[name: Amos | wings: 2]"
+        rest solved in code @class api.Eagle
+    3.3
+        5: false
+        6: true
+        rest solved in code @class api.Eagle
+
+Aufgabe 4
+    @link Aufgabe4.pdf
+
+Aufgabe 5
+    5.1
+        solved in code @class api.AbstractAnimal
+    5.2
+        solved in code @class test.Main @class api.AbstractAnimal
+    5.3
+        Die exceptions tritt in der @class api.Eagle bei @land @takeOff @move auf
+        man kann sie dort einfach abfangen
+        rest solved in code @class api.Eagle @class api.AbstractAnimal @class api.AnimalIsDeadException
+
+Aufgabe 6
+    man kann den typecast weglassen
+    man läuft in gefahr das in der Liste objekte sind die nicht dem typ entsprechen den man erwartet
+    rest solved in code @class test.Main

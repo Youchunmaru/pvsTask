@@ -1,0 +1,38 @@
+/**
+ * @author Samuel Gröner
+ * Blatt 02
+ * Tut 3
+ * code is referenced below
+ *
+ * */
+
+ Aufgabe 1
+    1.2
+        sind Thread sicher
+    1.3
+        Wenn S und F selbst Objekte enthalten kann nicht sichergestellt werden das
+        diese nicht noch irgendwo verändert werden können
+    1.4
+        @see Pair
+    1.5
+        @see Pair
+    1.6
+        @see Pair
+
+ Aufgabe 2
+    2.1
+        es giebt zwei Methoden von Typ List<T>
+        sort(List<T> list): list kann sortiert werden wenn T comparable ist
+        sort(List<T> list, Comparator<? super T> c): list wird mit dem
+            übergebenen comparator sortiert
+        Collection weil es nicht implementiert ist
+    2.2
+        @see main
+    2.3
+        @see main
+
+ Aufgabe 3
+    @see LocalDates
+
+ Aufgabe 4
+    @see Sokoban

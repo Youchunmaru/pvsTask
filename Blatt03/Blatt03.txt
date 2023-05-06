@@ -1,0 +1,22 @@
+/**
+@author Samuel Gröner
+Blatt 03
+Tut 03
+
+code is referenced below
+*/
+
+Aufgabe 1
+    1.1
+        @see HashMapArray
+    1.2
+        speicherplatz
+    1.3
+        größe ist nicht vorher festgelegt
+        zuordnung muss nicht int -> ... sein,
+
+Aufgabe 2
+    @see GradeOverview
+
+Aufgabe 3
+    @see GradeOverview
